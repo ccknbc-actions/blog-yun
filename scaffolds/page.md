@@ -1,0 +1,4 @@
+---
+title: {{ links }}
+date: {{ date }}
+---
