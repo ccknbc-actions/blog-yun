@@ -1,8 +1,11 @@
 name: Sync
 
-on:
-  push:
-    branches: [ master ]
+on: 
+  workflow_dispatch:
+    inputs:
+      name:
+        description: '手动触发'
+        required: false
 
 jobs:
   build:
