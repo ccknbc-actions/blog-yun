@@ -7,8 +7,8 @@ tags:
   - 网站存活监控
 categories:
   - 工具
-top_img: https://cdn.jsdelivr.net/gh/laugh0608/CDN/img/20200820100301.png
-cover: https://cdn.jsdelivr.net/gh/laugh0608/CDN/img/20200820100301.png
+top_img: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~11:19:11.png
+cover: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~11:19:11.png
 copyright_author: 大白萝卜
 copyright_author_href: https://dabailuobo.com
 copyright_url: https://blog.dabailuobo.com/ba779920

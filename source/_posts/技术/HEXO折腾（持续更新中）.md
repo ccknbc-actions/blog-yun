@@ -4,8 +4,8 @@ date: 2020-07-01 00:00:00
 updated: 2020-07-01 00:00:00
 tags: HEXO
 categories: HEXO
-cover: https://cdn.jsdelivr.net/gh/CCKNBC/CDN/image/cover/2020-8-6.png
-top_img: https://cdn.jsdelivr.net/gh/CCKNBC/CDN/image/cover/2020-8-6.png
+cover: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~10:48:38.png
+top_img: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~10:48:38.png
 id: 3
 author: CC
 email: zekangsun@outlook.com
