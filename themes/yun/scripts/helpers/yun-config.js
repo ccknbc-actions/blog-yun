@@ -7,6 +7,8 @@ hexo.extend.helper.register("yun_config", function() {
     root: config.root,
     title: theme.banner.title || config.title,
     version: yun_version,
+    mode: theme.mode,
+    copycode: theme.codeblock.copy_btn,
   };
 
   // anonymous_image

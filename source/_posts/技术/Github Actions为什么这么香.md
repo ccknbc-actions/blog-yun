@@ -575,7 +575,7 @@ ${{<expression>}}
 
 1. 在具体 `repository` 库`Settings` 的 `Secrets` 中添加一个密钥，如 `SOMEONE_TOKEN`
 
-{% note warning %} 注：关于如何获取github或者其他平台的密钥及授权不是本文重点，大家可以自行百度 {% endnote %}
+`注：关于如何获取github或者其他平台的密钥及授权不是本文重点，大家可以自行百度`
 
 2. 然后在`workflow`中就可以通过 `${{secrets.SOMEONE_TOKEN}}` 将 `token`安全地传递给环境变量
 

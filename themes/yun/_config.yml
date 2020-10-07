@@ -1,6 +1,6 @@
 # ---------------
-# mode: light | dark | auto
-mode: auto
+# mode: light | dark | auto | time
+mode: time
 
 # Theme color for customize
 # Notice: color value must in double quotes: "#000000"
@@ -108,6 +108,7 @@ social:
     color: black
 
 codeblock:
+  copy_btn: true
   prismjs:
     light: default
     dark: tomorrow
@@ -283,12 +284,12 @@ cdn:
   pre: ""
   # pre: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io
   css:
-    yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.20/dist/yun/yun-markdown.min.css
+    yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.21/dist/yun/yun-markdown.min.css
     # github-markdown-css: https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
   js:
     base:
     async:
-      iconfont: //at.alicdn.com/t/font_1140697_stqaphw3j4.js
+      iconfont: //at.alicdn.com/t/font_1140697_ed8vp4atwoj.js
     defer:
 
 # cdn for third-party library (alternative include)
@@ -321,7 +322,7 @@ font:
     family: "'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif"
     weight: 400
   monospace:
-    family: "'Source Code Pro', 'Courier New', Courier, Consolas, Monaco, monospace"
+    family: "'Source Code Pro', Consolas, Monaco, SFMono-Regular, 'Ubuntu Mono', Menlo, monospace"
 
 # custom your color in fireworks
 fireworks:
@@ -582,7 +583,14 @@ disqusjs:
   shortname: ccknbc
   count: true
   apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu
-
+  siteName: CC的部落格
+  identifier:
+  url:
+  title:
+  nesting: 4
+  nocomment: 这里冷冷清清的，一条评论也没有，快来留下脚印吧！
+  admin: ccknbc
+  adminLabel: ccknbc
 # https://livere.com/
 livere:
   enable: false
