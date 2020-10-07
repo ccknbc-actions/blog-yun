@@ -1,7 +1,7 @@
 ---
 title: HEXO折腾
-date: 2020-07-01 00:00:00
-updated: 2020-07-01 00:00:00
+date: 2020-07-01 08:00:00
+updated: 2020-07-01 12:00:00
 tags: HEXO
 categories: HEXO
 cover: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~10:48:38.png
