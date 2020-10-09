@@ -27,6 +27,7 @@ jobs:
         
     - name: Install HEXO CI
       run: |
+        export TZ='Asia/Shanghai'
         npm install hexo-cli -g
 
     - name: Catch
@@ -43,17 +44,13 @@ jobs:
 
     - name: Generate
       run: |
-        rm -rf ./public
-        rm -rf ./db.json
-        rm -rf ./.deploy_git
-        hexo -v
         hexo clean
+        git clone https://github.com/CCKNBC/yun.git public
         hexo generate
     
     - name: Deploy
       run: |
         cd ./public
-        git init
         git config --global user.name "ccknbc"
         git config --global user.email '${{ secrets.GIT_EMAIL }}'
         git add -A
