@@ -1,6 +1,6 @@
 # ---------------
 # mode: light | dark | auto | time
-mode: time
+mode: auto
 
 # Theme color for customize
 # Notice: color value must in double quotes: "#000000"
@@ -48,9 +48,9 @@ social:
     link: /atom.xml # config.feed.path
     icon: icon-rss-line
     color: orange
-  - name: QQ 群
+  - name: QQ 群 389401003
     # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
-    link: https://shang.qq.com/wpa/qunwpa?idkey=c929e704022704d8cced9ec355d44a3fa7ad34aea12cef1de03d75d3d7d5b059
+    link: https://qm.qq.com/cgi-bin/qm/qr?k=epvxdq1sknJe9JMj6J1LsBw4a6cI_2ln&jump_from=webapi
     icon: icon-qq-line
     color: "#12B7F5"
   - name: GitHub
@@ -141,9 +141,9 @@ avatar:
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
-  mickey_mouse: true
+  mickey_mouse: false
   status:
-    enable: true
+    enable: false
     emoji: 😊
     message: 永远相信美好的事情即将发生
 
@@ -172,7 +172,7 @@ archive:
   last_word: 没有更多的黑历史了_(:з」∠)_
 
 wordcloud:
-  enable: true
+  enable: false
   height: 350
 
 # You can set color for every tag or category.
@@ -284,7 +284,7 @@ cdn:
   pre: ""
   # pre: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io
   css:
-    yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.21/dist/yun/yun-markdown.min.css
+    yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.22/dist/yun/yun-markdown.min.css
     # github-markdown-css: https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
   js:
     base:
@@ -346,7 +346,7 @@ trianglify:
   opacity: 0.5
 
 cursor:
-  enable: true
+  enable: false
   default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
   pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
   text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
@@ -371,7 +371,7 @@ bg_image:
 # If enable true, reward would be displayed in every posts and pages by default.
 # You can show or hide reward in a specific page throuth `reward: true | false` in Front Matter.
 reward:
-  enable: false
+  enable: true
   icon: icon-hand-coin-line
   comment: I'm so cute. Please give me money.
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
@@ -404,7 +404,7 @@ creative_commons:
   license: by-nc-sa
   language: deed.zh
   post: true
-  clipboard: true
+  clipboard: false
 
 # AddThis Share, See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
@@ -413,13 +413,13 @@ creative_commons:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: true
-  url: https://github.com/ccknbc-actions/blog-yun/blob/master/source/ # Link for view source.
+  enable: false
+  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
 
 # Footer Settings
 # ---------------
 footer:
-  since: 2020
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -441,17 +441,17 @@ footer:
     # icp: 苏ICP备xxxxxxxx号
 
   live_time:
-    enable: true
+    enable: false
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
-    start_time: "2020-06-04T00:00:00"
+    start_time: "2019-04-12T00:00:00"
 
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
 
 # Post meta display settings
 post_meta:
-  item_text: true
+  item_text: false
   created_at: true
   updated_at: true
   categories: true
@@ -486,128 +486,12 @@ say:
 # Example: https://say.elpsy.cn/sentences.json
 
 # Comments
-# -------
-comment:
-  enable: true
-  icon: icon-chat-3-line
-  tips:
-    - 点击按钮跳转 GitHub Issues 评论
-    - 若没有本文 Issue，您可以使用 Comment 模版新建
-
-# GitHub Issues Link Button
-# https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
-github_issues:
-  enable: true
-  username: ccknbc-backup
-  repository: comments
-  filters: is:issue
-
-# Valine
-# You can get your appid and appkey from https://leancloud.cn
-# More info available at https://valine.js.org
-# extend: https://github.com/DesertsP/Valine-Admin
-valine:
-  enable: false
-  appId: # your leancloud application appid
-  appKey: # your leancloud application appkey
-  placeholder: Just go go # comment box placeholder
-  avatar: # gravatar style
-  # meta:
-  #   - nick
-  #   - mail
-  #   - link
-  pageSize: 10 # pagination size
-  # lang: zh-CN
-  visitor: false
-  highlight: true
-  recordIP: false
-  # serverURLs:
-  # Emoji See: https://valine.js.org/emoji.html
-  # emojiCDN: //i0.hdslb.com/bfs/emote/
-  # emojiMaps:
-  #   tv_doge: 6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png
-  #   more...
-  enableQQ: true
-  # requiredFields:
-  #   - nick
-  #   - mail
-
-# MiniValine
-# You can get your appid and appkey from https://leancloud.cn
-# More info available at https://github.com/MiniValine/MiniValine
-minivaline:
-  enable: false
-  appId: # Your leancloud application appId
-  appKey: # Your leancloud application appKey
-  # mode: DesertsP # DesertsP or xCss # xCss Style mode needs to import fontawesome@5 https://github.com/YunYouJun/hexo-theme-yun/blob/dev/docs/guide/config.md#其他图标
-  # placeholder: Write a Comment # Comment box placeholder
-  # math: true # Support MathJax.
-  # md: true # Support Markdown.
-  # NoRecordIP: false # Do not record commenter IP.
-  # visitor: true # Article reading statistics.
-  # maxNest: 6 # Sub-comment maximum nesting depth.
-  # pageSize: 6 # Pagination size.
-  # adminEmailMd5: de8a7aa53d07e6b6bceb45c64027763d # The MD5 of Admin Email to show Admin Flag.[Just Only DesertsP Style mode] 示例： Admin 邮箱的小写 MD5
-  # tagMeta: # The String Array of Words to show Flag.[Just Only xCss Style mode]
-  #   - 管理员 # 示例: master tag
-  #   - 小伙伴 # 示例: friends tag
-  #   - 访客   # 示例: 访客 tag
-  # master: # The MD5 String Array of master Email to show master Flag.[Just Only xCss Style mode]
-  #   - de8a7aa53d07e6b6bceb45c64027763d # 示例： master 邮箱的小写 MD5
-  # friends: # The MD5 String Array of friends Email to show friends Flag.[Just Only xCss Style mode]
-  #   - b5bd5d836c7a0091aa8473e79ed4c25e # 示例： friend 邮箱的小写 MD5
-  # MiniValine's display language depends on user's browser or system environment
-  # If you want everyone visiting your site to see a uniform language, you can set a force language value
-  # Available values: en  | zh-CN | (and many more)
-  # More i18n info: https://github.com/MiniValine/minivaline-i18n
-  # lang:
-  # Expression Url.
-  # https://github.com/MiniValine/MiniValine/blob/master/.github/FAQ.md#how-to-customize-emoticons
-  # emoticonUrl:
-  #   - https://cdn.jsdelivr.net/npm/alus@latest
-  #   - https://cdn.jsdelivr.net/gh/MiniValine/qq@latest
-  #   - https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest
-  #   - https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest
-  #   - https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest
-  #   - https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest
-
-# http://disqus.com/
-disqus:
-  enable: false
-  shortname: yunyoujun
-  count: false
-
-# https://github.com/SukkaW/DisqusJS
-disqusjs:
-  enable: true
-  shortname: ccknbc
-  count: true
-  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu
-  siteName: CC的部落格
-  identifier:
-  url:
-  title:
-  nesting: 4
-  nocomment: 这里冷冷清清的，一条评论也没有，快来留下脚印吧！
-  admin: ccknbc
-  adminLabel: ccknbc
-# https://livere.com/
-livere:
-  enable: false
-  uid:
-
-# https://github.com/utterance/utterances
-utterances:
-  enable: true
-  repo: ccknbc-backup/comments
-  issue-term: title
-  label: 💬comment
-  theme: github-light
+# See config file in /data/_comments.yml.
 
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi:
-  enable: true
+  enable: false
   site_uv: true
   site_uv_icon: icon-user-line
   site_pv: true
@@ -618,12 +502,13 @@ busuanzi:
 # Post wordcount
 # https://github.com/willin/hexo-wordcount
 wordcount:
-  enable: true
+  enable: false
   count: true
   time: true
 
 # search
 search:
+  modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/mountain-blur-30px.jpg
   # placeholder: 想要搜些什么？
@@ -637,7 +522,7 @@ engine_search:
 
 # https://github.com/wzpan/hexo-generator-search
 local_search:
-  enable: true
+  enable: false
   src: /js/search/local-search.js
 
 # https://github.com/oncletom/hexo-algolia
@@ -702,14 +587,14 @@ aplayer:
 
 # special
 mourn:
-  enable: true
+  enable: false
   days:
     - "4-4"
     - "9-18"
 
 # SEO
 # https://ziyuan.baidu.com/linksubmit/index
-baidu_push: true
+baidu_push: false
 
 # custom (You can use variables.)
 custom:

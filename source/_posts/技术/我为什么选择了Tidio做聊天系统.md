@@ -1,17 +1,18 @@
 ---
 title: 我为什么选择了Tidio做聊天系统
-date: 2020-10-02 21:18:42
-updated: 2020-10-03 18:09:51
-tags: 
-- Live Chat	
-- 聊天
+tags:
+  - Live Chat
+  - 聊天
 id: 8
 sticky: 1
-categories: 
-- Live Chat	
-- 聊天
-cover: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-04~17:23:00.png
-top_img: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-03~17:00:31.png
+categories:
+  - Live Chat
+  - 聊天
+cover: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-04~17:23:00.png'
+top_img: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-03~17:00:31.png'
+translate_title: why-did-i-choose-tidio-as-the-chat-system
+date: 2020-10-02 21:18:42
+updated: 2020-10-03 18:09:51
 ---
 
 使用了很多聊天系统后，在这里做一个心得总结，虽然至今无人问津，但还是要坚持下去，有一天会有有缘人上门的

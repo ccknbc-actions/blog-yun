@@ -1,13 +1,14 @@
 ---
 title: Github Actions为什么这么香
-date: 2020-10-06 10:51:58
-updated: 2020-10-06 12:00:00
 tags: Github Actions
 id: 9
 sticky: 2
 categories: Github Actions
-cover: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~11:16:13.gif
-top_img: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~11:10:13.png
+cover: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~11:16:13.gif'
+top_img: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~11:10:13.png'
+translate_title: why-github-actions-is-so-fragrant
+date: 2020-10-06 10:51:58
+updated: 2020-10-06 12:00:00
 ---
 
 `Github Actions`为什么这么香,我为什么专门建了一个组织`ccknbc-actions`来跑actions并储存博客源码，或者其他只是单纯来跑actions的项目，一开始就单纯只是想分类，forked一堆，主账号自己的项目却混在其中，最新的反而是天天运行actions的（排在前面）

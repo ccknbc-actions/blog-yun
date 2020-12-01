@@ -36,7 +36,7 @@ url: https://ccknbc.github.io/yun
 
 
 root: /yun/
-permalink: posts/:id/
+permalink: posts/:translate_title/
 permalink_defaults: 
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -130,23 +130,57 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: yun
 
-feed:
-    limit: 20
-    order_by: "-updated"
-    tag_dir: false #"tag"
-    category_dir: false #"category"
-    rss:
-        enable: true
-        template: 
-        output: "rss.xml"
-    atom:
-        enable: true
-        template: 
-        output: "atom.xml"
-    jsonFeed:
-        enable: true
-        template: 
-        output: "feed.json"
+# feed:
+#   enable: true
+#   type:
+#     - rss2
+#   path:
+#     - rss.xml
+#   limit: 1
+#   hub:
+#   content: true
+#   content_limit: false
+#   content_limit_delim: ' '
+#   order_by: -updated
+#   icon: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png
+#   autodiscovery: true
+#   template:
+
+translate_title:
+  translate_way: google  # google,youdao,baidu_with_appid,baidu_no_appid
+  youdao_api_key: '' # Your youdao_api_key
+  youdao_keyfrom: xxxx-blog # Your youdao_keyfrom
+  is_need_proxy: false     # true | false
+  proxy_url: http://localhost:50018 # Your proxy_url
+  baidu_appid: '' # Your baidu_appid
+  baidu_appkey: '' # Your baidu_appkey
+  rewrite: false # is rewrite true | false 
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'exclude1.com'
+    - 'exclude2.com'
+
+plugins:
+  - hexo-algoliasearch
+
+algolia:
+  appId: "RPOOWVANAZ"
+  apiKey: "f62dfdda83bd5fc5d150f6b68a53e5ce" # search only 所以别看了，不会有人会去浪费我的搜索次数吧
+  adminApiKey: "$ALGOLIA_ADMIN_API_KEY"
+  chunkSize: 5000
+  indexName: "ccknbc-blog"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
 
 # offline config passed to sw-precache.
 # service_worker:

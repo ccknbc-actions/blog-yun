@@ -1,7 +1,8 @@
 ---
 title: 留言板
-comments: false 
+comments: false
 type: comments
+translate_title: message-board
 ---
 
 ---

@@ -1,14 +1,15 @@
 ---
 title: HEXO折腾
-date: 2020-07-01 08:00:00
-updated: 2020-07-01 12:00:00
 tags: HEXO
 categories: HEXO
-cover: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~10:48:38.png
-top_img: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~10:48:38.png
+cover: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~10:48:38.png'
+top_img: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-05~10:48:38.png'
 id: 3
 author: CC
 email: zekangsun@outlook.com
+translate_title: hexo-toss
+date: 2020-07-01 08:00:00
+updated: 2020-07-01 12:00:00
 ---
 **个人目前使用主题为Butterfly `3.0.1`版本，HEXO `5.0.2`版本**
 

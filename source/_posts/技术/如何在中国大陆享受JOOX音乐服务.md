@@ -1,17 +1,18 @@
 ---
 title: 如何在中国大陆享受JOOX音乐服务
-date: 2020-10-07 18:00:00
-updated: 2020-10-06 18:00:00
-tags: 
-- JOOX MUSIC
-- 音乐
+tags:
+  - JOOX MUSIC
+  - 音乐
 id: 10
 sticky: 3
-categories: 
-- JOOX MUSIC
-- 音乐
-cover: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~20:11:17.gif
-top_img: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~20:11:13.png
+categories:
+  - JOOX MUSIC
+  - 音乐
+cover: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~20:11:17.gif'
+top_img: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~20:11:13.png'
+translate_title: how-to-enjoy-joox-music-service-in-mainland-china
+date: 2020-10-07 18:00:00
+updated: 2020-10-06 18:00:00
 ---
 
 **本篇教程不需要科学上网工具，但会提及，并且`JOOX APP`之后是可以全球不受限制听歌哦**

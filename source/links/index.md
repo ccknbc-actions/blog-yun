@@ -21,6 +21,7 @@ links:
     email: null
 placeholder: 还没想好说些什么
 tip: 友链加载中～如失败请刷新重试～
+translate_title: cc-friends
 date: 2020-07-02 09:19:47
 ---
 ---
