@@ -31,7 +31,7 @@ jobs:
         npm install hexo-cli -g
 
     - name: Catch
-      uses: actions/cache@v2.1.4
+      uses: actions/cache@v2.1.5
       id: cache-dependencies
       with:
         path: node_modules
