@@ -31,7 +31,7 @@
     "hexo-translate-title-vss": "1.0.14",
     "hexo-wordcount": "6.0.1",
     "cheerio": "1.0.0-rc.10",
-    "hexo-algoliasearch": "1.0.0",
+    "hexo-algoliasearch": "1.1.0",
     "hexo-charts": "1.0.3",
     "hexo-filter-nofollow": "2.0.2",
     "hexo-tag-mmedia": "1.1.7"
